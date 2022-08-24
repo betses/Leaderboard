@@ -15,7 +15,7 @@
 
   body {
     min-height: 450px;
-    height: 100vh;
+    height: 93vh;
     margin: 0;
     background: radial-gradient(ellipse farthest-corner at center top, #f39264 0%, #f2606f 100%);
     color: #fff;
@@ -295,6 +295,7 @@
   .input-text {
     padding: 15px;
     margin-bottom: 1rem;
+    outline: none;
   }
 
   .submit-btn {
