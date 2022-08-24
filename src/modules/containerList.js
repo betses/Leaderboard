@@ -2,7 +2,7 @@ import { base, gameId } from './env.js';
 
 const listContainer = () => {
   const refresh = document.getElementById('refresh');
-  const list = document.createElement('ul');
+  const list = document.createElement('ol');
   list.className = 'all-scores';
   let leaderboard = [];
   const addToList = async () => {
@@ -15,7 +15,10 @@ const listContainer = () => {
     leaderboard = result.result;
     leaderboard.forEach((score) => {
       list.innerHTML += `
-                <li> ${score.user}:${score.score} </li> 
+            <li>
+                <mark>${score.user}</mark>
+                <small>${score.score}</small>
+            </li>
         
                   `;
     });
@@ -24,7 +27,10 @@ const listContainer = () => {
     leaderboard = res.result;
     leaderboard.forEach((score) => {
       list.innerHTML += `
-              <li>${score.user}:${score.score} </li>
+      <li>
+      <mark>${score.user}</mark>
+      <small>${score.score}</small>
+  </li>
       
                 `;
     });

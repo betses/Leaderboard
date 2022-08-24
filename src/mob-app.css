@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
 
   *,
   ::after,
@@ -231,12 +231,7 @@
     max-width: 100%;
   }
 
-  .content {
-    display: flex;
-  }
-
   .table-container {
-    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -255,12 +250,15 @@
   }
 
   .table-input {
-    width: 50%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .refresh-btn {
-    background-color: #000000;
-    border: 2px solid #1A1A1A;
+    background-color: #363C49;
+    border: 2px solid #363C49;
     border-radius: 15px;
     color: #FFFFFF;
     cursor: pointer;
@@ -300,8 +298,8 @@
   }
 
   .submit-btn {
-    background-color: #000000;
-    border: 2px solid #1A1A1A;
+    background-color: #363C49;
+    border: 2px solid #363C49;
     border-radius: 15px;
     color: #FFFFFF;
     cursor: pointer;
