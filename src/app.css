@@ -57,14 +57,6 @@ body {
   padding: 1rem;
 }
 
-.table ul li:nth-child(odd) {
-  background-color: #d1d5db;
-}
-
-.table ul li:nth-child(even) {
-  background-color: white;
-}
-
 .table-input {
   width: 50%;
 }
