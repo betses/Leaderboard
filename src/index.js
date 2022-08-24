@@ -1,4 +1,4 @@
-import './app.css';
+import '../dist/output.css';
 import listContainer from './modules/containerList.js';
 import addScore from './modules/addScore.js';
 
