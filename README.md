@@ -13,9 +13,8 @@
 - JavaScript
 - APIs
 
-## Live Demo
+## [Live Demo](https://betses.github.io/Leaderboard/)
 
-[Coming soon]("#")
 
 
 ## Getting Started
