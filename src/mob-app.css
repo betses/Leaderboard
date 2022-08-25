@@ -132,6 +132,22 @@
     background: #fa6855;
   }
 
+  .leaderboard ol li:nth-child(even) {
+    background: #e0574f;
+  }
+
+  .leaderboard ol li:nth-child(even)::after {
+    background: #e0574f;
+  }
+
+  .leaderboard ol li:nth-child(odd) {
+    background: #c24448;
+  }
+
+  .leaderboard ol li:nth-child(odd)::after {
+    background: #c24448;
+  }
+
   .leaderboard ol li:nth-child(2) {
     background: #e0574f;
   }
