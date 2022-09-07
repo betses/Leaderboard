@@ -26,7 +26,7 @@ To get a local copy up and running follow these simple example steps.
 - [npm](https://www.npmjs.com/)
 
 ### Setup
-- Clone the repository ` git clone https://github.com/niicode/leaderboard.git
+- Clone the repository ` git clone https://github.com/betses/leaderboard.git
 
 ### Install
 - `npm install`
